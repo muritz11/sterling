@@ -1,0 +1,129 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+@font-face{
+	font-family: 'raleway_light';
+	src: url(raleway-light.ttf);
+}
+.container{
+	width: 100%;
+	display: flex;
+}
+.left, .right{
+	background-color: #ffffff;
+	min-height: 100px;
+	width: 50%;
+	padding: 0px 80px;
+}
+.right{
+	background-color: #F3F7FA;
+	padding-top: 90px;
+}
+.logo{
+	color: grey;
+	display: flex;
+	padding-top: 20px;
+}
+.logo h1{
+	margin-top: 50px;
+}
+.h1, h4{
+	color: #152445;
+	padding: 20px 0px;
+}
+
+p, a,ul li{
+	color: #6A7F9E;
+	padding: 7px 0px;
+	text-decoration: none;
+	list-style-type: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+.login{
+	padding: 14px;
+	background-color: #F1F5F8;
+	width: 80%;
+	border-radius: 10px;
+	margin-top: 20px;
+	/*display: flex;*/
+
+}
+.blue{
+	background-color: #05274A;
+	border-radius: 8px;
+	color: #F1F5F8;
+	padding: 8px;
+	margin-right: 8px;
+}
+.form{
+	margin-top: 25px;
+}
+.form input{
+	padding: 15px;
+	width: 90%;
+	border: 1px solid #d2dcdd;
+	border-radius: 4px;
+}
+.form p{
+	margin-top: 10px;
+}
+.forgot{
+	margin-top: 0px !important;
+}
+.forgot a{
+	margin-top: 0px;
+	color: #0000EE;
+}
+.submit{
+	margin-top: 20px;
+	background-color: #4BB779;
+	color: #fff;
+}
+.rheading{
+	color: #152445;
+	display: flex;
+}
+.rheading h2{
+	margin-left: 10px;
+}
+.article{
+	padding: 10px;
+	width: 95%;
+	margin: auto;
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 8px 8px #BBCCDE;
+	margin-top: 20px;
+	padding-left: 15px;
+}
+.article h2{
+	font-weight: lighter;
+	color: #152445;
+}
+.date{
+	background-color: #BBCCDE;
+	padding: 3px;
+	border-radius: 6px;
+	margin-left: 8px;
+}
+p, a, h1, h2, li{
+	font-family: 'raleway_light';
+}
+.more{
+	padding: 8px;
+	margin: auto;
+	width: 70%;
+}
+
+@media screen and (max-width: 800px){
+	.container{
+		display: block;
+	}
+	.left, .right{
+		width: 100%;
+	}
+}
